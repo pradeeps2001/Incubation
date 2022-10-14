@@ -1,0 +1,5 @@
+#inc-3368
+#Fri Oct 07 20:59:41 IST 2022
+Name=Pradeep
+Gender=Male
+Age=21
