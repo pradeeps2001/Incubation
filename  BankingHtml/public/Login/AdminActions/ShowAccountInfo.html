@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style >
+table, th, td{
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+</style>
+<title>Show Account Info</title>
+</head>
+<body>
+	<div>
+		<label>Customer ID : </label><input type="number"></input>
+	</div>
+	<br></br>
+	<div>
+		<label for="accounts">Choose an Account : </label> 
+		<select name="accounts">
+			<option selected disabled hidden="hidden">Choose here</option>
+			<option value="38057650587">38057650587</option>
+			<option value="63054865620">63054865620</option>
+			<option value="38056547521">38056547521</option>
+		</select>
+	</div>
+	<br></br>
+	<div>
+		<input type="submit" value="Submit">
+	</div>
+	<div>
+		<table style="width: 70%; margin-left: 20px; margin-top: 40px">
+			<tr>
+				<th style="width: 10%">Account No</th>
+				<th style="width: 10%">Account Type</th>
+				<th style="width: 10%">Branch</th>
+				<th style="width: 10%">Balance</th>
+			</tr>
+			<tr>
+				<td>38057650587</td>
+				<td>Savings</td>
+				<td>Ramanthapuram</td>
+				<td>188000.75</td>
+			</tr>
+			<tr>
+				<td>63054865620</td>
+				<td>Fixed Deposit</td>
+				<td>Chennai</td>
+				<td>90000.56</td>
+			</tr>
+			<tr>
+				<td>38056547521</td>
+				<td>Salary</td>
+				<td>Madurai</td>
+				<td>60075.00</td>
+			</tr>
+		</table>
+	</div>
+</body>
+</html>
