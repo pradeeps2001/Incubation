@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Inter', sans-serif;
+}
+
+body{
+	background-image: url('../images/background.png');
+	background-size: cover;
+	object-fit: cover;
+	overflow: hidden;
+	background-repeat: no-repeat;
+}
+
+#row {
+    margin-top: 260px;
+}
+
+#loginIcon {
+	font-size: 40px;
+}
+
+#userId {
+	margin-top: 75px;
+}
+
+#password {
+	margin-top: 30px;
+}
+
+#loginbtn {
+	margin-left: 85px;
+    width: 182px;
+}
+
+#forgotLink {
+	margin-left: 90px;
+    margin-top: 15px;
+}
+
+[placeholder]:focus::-webkit-input-placeholder {
+    transition: text-indent 0.4s 0.4s ease; 
+    text-indent: -100%;
+    opacity: 1;
+ }
